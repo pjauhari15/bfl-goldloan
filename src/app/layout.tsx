@@ -8,7 +8,7 @@ const rubik = Rubik({
 })
 
 export const metadata: Metadata = {
-  title: 'Bajaj Finserv',
+  title: 'Bajaj Finserv for Developers',
   description: 'Bajaj Finance Limited - Loans, Investment, Insurance, Payments',
   robots: {
     index: false,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
+  }, 
 }
 
 export default function RootLayout({
