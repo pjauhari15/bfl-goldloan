@@ -1,0 +1,35 @@
+<svg width="1440" height="256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Authentic Figma gold gradient -->
+    <linearGradient id="figmaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4912A;stop-opacity:1" />
+      <stop offset="15%" style="stop-color:#B8761F;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#A16418;stop-opacity:1" />
+      <stop offset="45%" style="stop-color:#8B5210;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#7A4209;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#6B3507;stop-opacity:1" />
+      <stop offset="90%" style="stop-color:#5C2B05;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C1503;stop-opacity:1" />
+    </linearGradient>
+    <!-- Figma overlay gradient -->
+    <linearGradient id="figmaOverlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#000000;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.9" />
+    </linearGradient>
+    <!-- Gold texture pattern -->
+    <pattern id="goldTexture" patternUnits="userSpaceOnUse" width="80" height="80">
+      <circle cx="40" cy="40" r="1.5" fill="#FFD700" opacity="0.4"/>
+      <circle cx="20" cy="20" r="1" fill="#FFA500" opacity="0.3"/>
+      <circle cx="60" cy="60" r="1.2" fill="#FF8C00" opacity="0.35"/>
+      <circle cx="10" cy="50" r="0.8" fill="#DAA520" opacity="0.25"/>
+      <circle cx="70" cy="30" r="0.9" fill="#B8860B" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <!-- Base gold gradient -->
+  <rect width="100%" height="100%" fill="url(#figmaGold)"/>
+  <!-- Texture overlay -->
+  <rect width="100%" height="100%" fill="url(#goldTexture)"/>
+  <!-- Dark overlay for text readability -->
+  <rect width="100%" height="100%" fill="url(#figmaOverlay)"/>
+</svg>
