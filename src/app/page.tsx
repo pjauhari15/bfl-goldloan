@@ -1,4 +1,4 @@
-import { Header, Footer, GoldRate, GoldRateCalculator } from "compositions";
+import { Header, Footer, GoldRate, GoldRateCalculator, GoldRateForm } from "compositions";
 import { AllProviders } from "data";
 
 export default function HomePage() {
@@ -10,6 +10,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 py-8">
           <GoldRateCalculator />
         </div>
+        <GoldRateForm />
       </main>
       <Footer />
     </AllProviders>
