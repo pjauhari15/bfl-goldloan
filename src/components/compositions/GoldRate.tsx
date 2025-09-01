@@ -57,26 +57,26 @@ export function GoldRate() {
               </div>
             </div>
           </div>
+        </div>
+        
+        {/* Bottom Section - Mobile (Stacked) - Outside background */}
+        <div className="bg-white flex flex-col gap-4 p-4 w-full">
+          <div className="space-y-3">
+            <div className="flex flex-col gap-2">
+              <p className="font-normal text-base text-[#1a1a1a] leading-normal">24K Gold / 10gm: ₹1,05,293</p>
+              <p className="font-normal text-sm text-[#00b500] leading-5">+520.60(0.24%)</p>
+            </div>
+            <div className="flex flex-col gap-1">
+              <p className="font-normal text-sm text-[#666666] leading-5">Find nearest gold loan branch</p>
+              <p className="font-normal text-sm text-[#1778eb] leading-5">Check now</p>
+            </div>
+          </div>
           
-          {/* Bottom Section - Mobile (Stacked) */}
-          <div className="flex flex-col gap-4 p-4 w-full">
-            <div className="space-y-3">
-              <div className="flex flex-col gap-2">
-                <p className="font-normal text-base text-[#1a1a1a] leading-normal">24K Gold / 10gm: ₹1,05,293</p>
-                <p className="font-normal text-sm text-[#00b500] leading-5">+520.60(0.24%)</p>
-              </div>
-              <div className="flex flex-col gap-1">
-                <p className="font-normal text-sm text-[#666666] leading-5">Find nearest gold loan branch</p>
-                <p className="font-normal text-sm text-[#1778eb] leading-5">Check now</p>
-              </div>
-            </div>
-            
-            <div className="flex flex-col gap-2 items-center">
-              <button className="flex items-center justify-center px-4 py-3 relative rounded-full w-full bg-gradient-to-r from-[#ff6700] to-[#ff8533] max-w-sm">
-                <span className="font-medium text-sm text-white uppercase leading-normal">Check eligibility for gold loan</span>
-              </button>
-              <p className="font-normal text-xs text-[#666666] leading-4 text-center">Lorem ipsum dolor orem ipsum dolor ipsum dolor ipsum dolor ipsum dolor</p>
-            </div>
+          <div className="flex flex-col gap-2 items-center">
+            <button className="flex items-center justify-center px-4 py-3 relative rounded-full w-full bg-gradient-to-r from-[#ff6700] to-[#ff8533] max-w-sm">
+              <span className="font-medium text-sm text-white uppercase leading-normal">Check eligibility for gold loan</span>
+            </button>
+            <p className="font-normal text-xs text-[#666666] leading-4 text-center">Lorem ipsum dolor orem ipsum dolor ipsum dolor ipsum dolor ipsum dolor</p>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ export function GoldRate() {
           <div className="box-border content-stretch flex flex-col gap-3 items-start justify-start pb-4 pl-5 pr-4 pt-1 relative w-full">
             <div className="content-stretch flex gap-2.5 items-center justify-start relative shrink-0 w-full">
               {/* First Card */}
-              <div className="backdrop-blur-[4.5px] backdrop-filter bg-[rgba(0,0,0,0.5)] box-border content-stretch flex flex-col gap-2 items-end justify-center px-4 py-3 relative rounded-[8px] shrink-0 flex-1">
+              <div className="backdrop-blur-[4.5px] backdrop-filter bg-[rgba(0,0,0,0.5)] box-border content-stretch flex flex-col gap-2 items-end justify-center px-4 py-3 relative rounded-[8px] shrink-0 w-[190px]">
                 <div aria-hidden="true" className="absolute border border-[#a1a1a1] border-solid inset-0 pointer-events-none rounded-[8px] shadow-[0px_0px_10px_0px_rgba(255,255,255,0.56)]" />
                 <div className="content-stretch flex flex-col gap-1 items-start justify-start leading-[0] relative shrink-0 w-full">
                   <div className="flex flex-col font-['Rubik',_sans-serif] font-normal justify-center min-w-full relative shrink-0 text-[#cccccc] text-[14px]">
@@ -154,26 +154,26 @@ export function GoldRate() {
               </div>
             </div>
           </div>
+        </div>
+        
+        {/* Bottom Section - Desktop (Side by Side) - Outside background */}
+        <div className="bg-white flex items-start justify-between px-6 py-4 w-full">
+          <div className="flex flex-col gap-3 items-start justify-start">
+            <div className="flex font-normal gap-3 items-center">
+              <p className="text-lg text-[#1a1a1a] leading-normal whitespace-pre">24K Gold / 10gm: ₹1,05,293</p>
+              <p className="text-sm text-[#00b500] leading-5 whitespace-pre">+520.60(0.24%)</p>
+            </div>
+            <div className="flex font-normal gap-2 items-center text-sm">
+              <p className="text-[#666666] leading-5 whitespace-pre">Find nearest gold loan branch</p>
+              <p className="text-[#1778eb] leading-5 whitespace-pre">Check now</p>
+            </div>
+          </div>
           
-          {/* Bottom Section - Desktop (Side by Side) */}
-          <div className="flex items-start justify-between px-6 py-3 w-full">
-            <div className="flex flex-col gap-3 items-start justify-start">
-              <div className="flex font-normal gap-3 items-center">
-                <p className="text-lg text-[#1a1a1a] leading-normal whitespace-pre">24K Gold / 10gm: ₹1,05,293</p>
-                <p className="text-sm text-[#00b500] leading-5 whitespace-pre">+520.60(0.24%)</p>
-              </div>
-              <div className="flex font-normal gap-2 items-center text-sm">
-                <p className="text-[#666666] leading-5 whitespace-pre">Find nearest gold loan branch</p>
-                <p className="text-[#1778eb] leading-5 whitespace-pre">Check now</p>
-              </div>
-            </div>
-            
-            <div className="flex flex-col gap-2 items-center">
-              <button className="flex gap-2.5 h-[42px] items-center justify-center px-2.5 py-3 relative rounded-full w-96 bg-gradient-to-r from-[#ff6700] to-[#ff8533]">
-                <span className="font-medium text-sm text-white uppercase leading-normal whitespace-pre">Check eligibility for gold loan</span>
-              </button>
-              <p className="font-normal text-xs text-[#666666] leading-4 text-center whitespace-pre">Lorem ipsum dolor orem ipsum dolor ipsum dolor ipsum dolor ipsum dolor</p>
-            </div>
+          <div className="flex flex-col gap-2 items-center">
+            <button className="flex gap-2.5 h-[42px] items-center justify-center px-2.5 py-3 relative rounded-full w-96 bg-gradient-to-r from-[#ff6700] to-[#ff8533]">
+              <span className="font-medium text-sm text-white uppercase leading-normal whitespace-pre">Check eligibility for gold loan</span>
+            </button>
+            <p className="font-normal text-xs text-[#666666] leading-4 text-center whitespace-pre">Lorem ipsum dolor orem ipsum dolor ipsum dolor ipsum dolor ipsum dolor</p>
           </div>
         </div>
       </div>
